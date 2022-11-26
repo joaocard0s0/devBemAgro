@@ -40,5 +40,3 @@ def entrada_arquivo(pasta):
     else:
         vetor = gdf.read_file(caminho_arquivo['caminho'], driver=caminho_arquivo['extensao'])
     padronizacao(vetor, pasta)
-
-#entrada_arquivo(r'C:\Users\Administrator\Desktop\BemAgro\devBemAgro\static\files')
